@@ -32,6 +32,14 @@
     bottom: 0;
 }
 
+.obstacle2 {
+    background-image: url(IMG/cactus2\ \(1\).png);
+    width: 69px;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+}
+
 body {
     background-color: rgb(16, 146, 189);
 }
