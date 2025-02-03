@@ -12,8 +12,9 @@
     background-image: url("IMG/desert.png");
     height: 394px;
     width: 100%;
-    animation: slideright 600s infinite linear ;
+    animation: slideright 900s infinite linear ;
     bottom: 0;
+    z-index: -1;
 }
 
 .dino {
@@ -75,6 +76,7 @@ body {
 
 .header {
 
-    text-align: center;
+text-align: center;
     
 }
+
