@@ -23,6 +23,7 @@
     height: 43px; 
     position: absolute;
     bottom: 0;
+    
 }
 
 .obstacle {
@@ -45,7 +46,7 @@ body {
     background-color: rgb(16, 146, 189);
 }
 
-.button {
+#button {
     background-color: white;
     border-color: rgb(6, 95, 212);
     border-style: solid;
@@ -65,12 +66,12 @@ body {
     bottom: 15px;
 }
 
-.button:hover {
+#button:hover {
     background-color: rgb(6, 95, 212);
     color: white;
 }
 
-.button:active {
+#button:active {
     opacity: 0.7;
 }
 
