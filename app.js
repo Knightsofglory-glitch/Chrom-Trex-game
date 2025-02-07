@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let gravity = 0.9
     let isJumping = false
     let isGameOver = false
-
+      
     function control(e){
         if(e.code === "Space" || e.code ==="ArrowUp"){
            if (!isJumping){
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function button(){
         window.location.reload()
     }
-    
+
     let position = 0
     function jump(){
         isJumping = true
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
            let timerId = setInterval(function(){
             if (obstaclePosition > 0 && obstaclePosition < 60 && position < 60){
                 clearInterval(timerId)
-                alert.innerHTML ='Game Over'
+                alert.innerHTML ='Game Over Bruh!'
                 isGameOver = true
                 //remove all children
                 while (grid.firstChild){
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
            let timerId = setInterval(function(){
             if (obstacle2Position > 0 && obstacle2Position < 60 && position < 60){
                 clearInterval(timerId)
-                alert.innerHTML ='Game Over'
+                alert.innerHTML ='Game Over Bruh!'
                 isGameOver = true
                 //remove all children
                 while (grid.firstChild){
